@@ -19,5 +19,8 @@ function changeBGColor(event){
     var body = document.getElementsByTagName('body')[0]
     body.style.backgroundColor = event.target.innerText
 }
-
+//task 2 c
+function redirectToGoogle(event){
+    window.location.assign('http://www.google.com')
+}
 /* Task 4 using jQuery */
