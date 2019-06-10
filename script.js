@@ -3,6 +3,7 @@ var element = document.getElementById('heading')
 console.log(element.innerText)
 
 /* Task 2 using plain JavaScript */
+//task 2a
 var textBtn = document.getElementById('addText1')
 
 textBtn.addEventListener('click', function(event){
@@ -12,7 +13,11 @@ textBtn.addEventListener('click', function(event){
     task2.appendChild(paragraph)
 })
 
-
-
+//task 2b
+function changeBGColor(event){
+    //console.log(event.target.innerText)
+    var body = document.getElementsByTagName('body')[0]
+    body.style.backgroundColor = event.target.innerText
+}
 
 /* Task 4 using jQuery */
